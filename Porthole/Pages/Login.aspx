@@ -3,6 +3,11 @@
 <div class="columns">
     <div class="column col-8">
         <form runat="server" class="form-horizontal">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a style="color:#62bad1" href="#" onclick="document.getElementById('cphMain_cphContent_cphForm_txtEmail').value='s1234112@ap.edu.sg';document.getElementById('cphMain_cphContent_cphForm_txtPassword').value='p@55Student';return false;">login as Amy</a></li>
+                <li class="breadcrumb-item"><a style="color:#62bad1" href="#" onclick="document.getElementById('cphMain_cphContent_cphForm_txtEmail').value='Peter_Ghim@ap.edu.sg';document.getElementById('cphMain_cphContent_cphForm_txtPassword').value='p@55Mentor';return false;">login as Teacher</a></li>
+                <li class="breadcrumb-item"><a style="color:#62bad1" href="#" onclick="document.getElementById('cphMain_cphContent_cphForm_txtEmail').value='admin@ap.edu.sg';document.getElementById('cphMain_cphContent_cphForm_txtPassword').value='passAdmin';return false;">login as Admin</a></li>
+            </ul>
             <div class="form-group columns">
                 <div class="column col-3 col-sm-12">
                     <label class="form-label" for="txtEmail">email</label>

@@ -20,8 +20,8 @@ namespace Porthole.Pages
                 {
                     ID = 1,
                     Name = "Admin-san",
-                    EmailAddress = "admin@admin.com",
-                    Password = "123"
+                    EmailAddress = "admin@ap.edu.sg",
+                    Password = "passAdmin"
                 });
                 accounts.AddRange(context.Student
                                   .ToList());
